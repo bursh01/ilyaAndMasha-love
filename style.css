@@ -1,0 +1,35 @@
+
+
+body {
+
+	background: black;
+	
+
+}
+.container {
+	position: absolute;
+	left: 14%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container div img {
+
+	height: 300px;
+	width: 300px;
+}
+ .img {
+ 	z-index: 10;
+	width: 800px;
+	position: fixed;
+	top: 10px;
+	left: 300px;
+	margin: 150px auto;
+	font-family: 'Pacifico', cursive;
+font-family: 'Abril Fatface', cursive;
+	font-size: 33px;
+	color: #55DCDA;
+}
+
+
