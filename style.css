@@ -11,7 +11,7 @@ body {
 	left: 14%;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr ;
 }
 
 .container div img {
@@ -21,15 +21,16 @@ body {
 }
  .img {
  	z-index: 10;
-	width: 800px;
+	width: 400px;
 	position: fixed;
 	top: 10px;
-	left: 300px;
-	margin: 150px auto;
+	left: 14%;
+	margin: 30px auto;
 	font-family: 'Pacifico', cursive;
 font-family: 'Abril Fatface', cursive;
 	font-size: 33px;
-	color: #55DCDA;
+	font-weight: 800;
+	color: red;
 }
 
 
